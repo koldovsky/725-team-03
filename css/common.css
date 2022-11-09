@@ -2,10 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 17px;
+    background-color: var(--primary-background-color);
 }
 
-/* :root { 
-}  */
+:root {
+    --primary-font: "PT Sans", sans-serif;
+    --secondary-font: "Playfair Display", serif;
+    --primary-text-weight: 400;
+    --secondary-text-weight: 700;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #c09a64;
+    --paragraph-text-color: rgb(186, 186, 186);
+    --primary-background-color: #000000;
+    --button-background-color: #c09a64;
+}
 
 img {
     display: block;
