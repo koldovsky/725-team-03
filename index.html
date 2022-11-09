@@ -6,34 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R.Allen Photography</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
+<!-- 
+Block-0 Віктор Зварич
+Block-1 Віктор Зварич
+Block-2 Олексій Новосядло
+Block-3 Олексій Новосядло
+Block-4 Бандура Роман
+Block-5 Бандура Роман
+Block-6 Олег Онопрійчук
+Block-7 Миронюк Марта
+Block-8 Юрій Мурачов
+Block-9 Миронюк Марта
+Block-10 Максим Мельник
+Block-11 Максим Мельник
+Block-12 Ольга Станіславська
+Block-13 Ольга Станіславська
+Block-14 Брошко Христина
+Block-15 Віктор Зварич -->
 
 <body>
     <!-- Block-0 Віктор Зварич -->
     <header class="header">
         <nav class="header__nav">
-            <a href="/" class="logo">
-                <img class="logo-image" src="img/logo.svg" width="174"
+            <a href="/" class="header__logo">
+                <img class="header__logo-image" src="img/logo.svg" width="174"
                     alt="Logo image of the 'R.Allen Photography' website">
             </a>
             <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#about">About</a>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#about">About</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#services">Services</a>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#services">Services</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#works">Latest works</a>
+                <li class="nav-men__item">
+                    <a class="nav-menu__link" href="#works">Latest works</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#pricing">Pricing</a>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#pricing">Pricing</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#testimonials">Testimonials</a>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#testimonials">Testimonials</a>
                 </li>
-                <li class="nav-menu-item">
-                    <a class="nav-menu-link" href="#contact-form">Contact Ryan</a>
+                <li class="nav-menu__item">
+                    <a class="nav-menu__link" href="#contact-form">Contact Ryan</a>
                 </li>
             </ul>
         </nav>
@@ -45,11 +64,11 @@
                 <span class="hero__profession uppercase">Fashion photographer</span>
                 <span class="hero__name">Ryan Allen</span>
             </h1>
-            <hr class="main__banner-line">
-            <p class="main__banner-text capitalized">A New York based photographer specializing in women’s and men’s
+            <hr class="hero__line line line-center">
+            <p class="hero__text subtitle uppercase">A New York based photographer specializing in women’s and men’s
                 fashion, street style, event, and portrait photography.</p>
-            <a href="#contact-form" class="main__banner-button capitalized">Contact Ryan</a>
-            <img class="main__banner-three-dots" src="img/dots.svg" alt="Three dots">
+            <a href="#contact-form" class="hero__button uppercase">Contact Ryan</a>
+            <img class="hero__image-dots" src="img/dots.svg" alt="Three dots">
         </section>
         <!--Block-2 Oleksii Novosiadlo-->
         <section id="about">
@@ -164,61 +183,114 @@
                 </div>
             </div>
         </section>
+        <!--Block-7 Marta Myroniuk-->
+        <section>
+            <header>
+                <h1>Brands</h1>
+                <hr />
+                <h5>RYAN HAD GREAT PLEASURE OF WORKING WITH THE FOLLOWING BRANDS.</h5>
+            </header>
+            <div>
+                <div>"<"< /div>
+                        <!--Replace with the real arrow-->
+                        <div>
+                            <img src="./img/cosmo.png" alt="Cosmolitan" />
+                            <img src="./img/ys.png" alt="YvesSaintLaurent" />
+                            <img src="./img/bazar.png" alt="Bazaar" />
+                            <img src="./img/bulgari.png" alt="Bvlgari" />
+                            <img src="./img/vogue.png" alt="Vogue" />
+                        </div>
+                        <div>">"</div>
+                        <!--Replace with the real arrow-->
+                </div>
+        </section>
         <!--Block-8 Yriy Murachov-->
-        <section id="testimonials" class="testimonials">
-            <div class="testimonials__block__title">
-                <p>TESTIMONIALS</p>
+        <section id="testimonials">
+            <div class="testimonials">
+                <div class="testimonials__block__title">
+                    <p>TESTIMONIALS</p>
+                </div>
+                <div class="testimonials__block__name">
+                    <p>Amanda Li, Vogue</p>
+                </div>
+                <div class="testimonials__block__text">
+                    <p>Working with Ryan was an incredible experience. Everything was perfect from the very
+                        beginning of
+                        the
+                        photoshoot. Ryan is very talented in his field and you can really tell that he loves what he
+                        does.
+                        We
+                        absolutely love how all the images turned out and will go back to Ryan for future
+                        photoshoots.
+                    </p>
+                </div>
+                <div class="testimonials__backgroundphoto">
+                    <img src="img/testimonial-amanda-li.png" width="300" alt="Testimonial-Amanda-Li">
+                </div>
+                <div class="testimonials__block__title">
+                    <p>TESTIMONIALS</p>
+                </div>
+                <div class="testimonials__block__name">
+                    <p>Sam Hoe, YSL</p>
+                </div>
+                <div class="testimonials__block__text">
+                    <p>We have only pleasant impressions from working with this photographer. Ryan took all our
+                        wishes
+                        into
+                        account and really pleased us with excellent quality and stylish frames. We will contact
+                        this
+                        photographer for shooting our next collections for commercials. </p>
+                </div>
+                <div class="testimonials__backgroundphoto">
+                    <img src="img/testimonial-sam-hoe.png" width="300" alt="Testimonial Sam Hoe">
+                </div>
+                <div class="testimonials__block__title">
+                    <p>TESTIMONIALS</p>
+                </div>
+                <div class="testimonials__block__name">
+                    <p>Diana Peterson</p>
+                </div>
+                <div class="testimonials__block__text">
+                    <p>I am a beginner fashion model and do not yet have much experience in commercial shootings.
+                        Ryan
+                        has a
+                        unique way of making you feel comfortable in the frame. He does a great job of finding the
+                        best
+                        location, providing direction, and listening to your wishes. </p>
+                </div>
+                <div class="testimonials__backgroundphoto">
+                    <img src="img/testimonial-diana-peterson.png" width="300" alt="Diana Peterson">
+                </div>
             </div>
-            <div class="testimonials__block__name">
-                <p>Amanda Li, Vogue</p>
-            </div>
-            <div class="testimonials__block__text">
-                <p>Working with Ryan was an incredible experience. Everything was perfect from the very
-                    beginning of
-                    the
-                    photoshoot. Ryan is very talented in his field and you can really tell that he loves what he
-                    does.
-                    We
-                    absolutely love how all the images turned out and will go back to Ryan for future
-                    photoshoots.
-                </p>
-            </div>
-            <div class="testimonials__backgroundphoto">
-                <img src="img/testimonial-amanda-li.png" width="300" alt="Testimonial-Amanda-Li">
-            </div>
-            <div class="testimonials__block__title">
-                <p>TESTIMONIALS</p>
-            </div>
-            <div class="testimonials__block__name">
-                <p>Sam Hoe, YSL</p>
-            </div>
-            <div class="testimonials__block__text">
-                <p>We have only pleasant impressions from working with this photographer. Ryan took all our
-                    wishes
-                    into
-                    account and really pleased us with excellent quality and stylish frames. We will contact
-                    this
-                    photographer for shooting our next collections for commercials. </p>
-            </div>
-            <div class="testimonials__backgroundphoto">
-                <img src="img/testimonial-sam-hoe.png" width="300" alt="Testimonial Sam Hoe">
-            </div>
-            <div class="testimonials__block__title">
-                <p>TESTIMONIALS</p>
-            </div>
-            <div class="testimonials__block__name">
-                <p>Diana Peterson</p>
-            </div>
-            <div class="testimonials__block__text">
-                <p>I am a beginner fashion model and do not yet have much experience in commercial shootings.
-                    Ryan
-                    has a
-                    unique way of making you feel comfortable in the frame. He does a great job of finding the
-                    best
-                    location, providing direction, and listening to your wishes. </p>
-            </div>
-            <div class="testimonials__backgroundphoto">
-                <img src="img/testimonial-diana-peterson.png" width="300" alt="Diana Peterson">
+        </section>
+        <!--Block-9 Myroniuk Marta-->
+        <section>
+            <header>
+                <h1>Collaboration</h1>
+                <hr />
+                <h5>LET'S CREATE SOMETHING GREAT AND BEAUTIFUL TOGETHER.</h5>
+            </header>
+            <div>
+                <img src="./img/section-9-women-on-the-chair.png" alt="Woman on the chair" />
+                <ol>
+                    <li>
+                        <h1>Contact Ryan</h1>
+                        <h5>You can call or write Ryan Allen, or simply fill out the contact form on this website</h5>
+                    </li>
+                    <li>
+                        <h1>Choose the date</h1>
+                        <h5>Indicate where the shooting will take place, specify the preferred date and exact time.</h5>
+                    </li>
+                    <li>
+                        <h1>Take care of the details</h1>
+                        <h5>Make sure that the studio is rented, models are booked and there's everything necessary for
+                            the shooting.</h5>
+                    </li>
+                    <li>
+                        <h1>Get the perfect photos!</h1>
+                        <h5>All photos will be ready in a maximum of 2 months if you need retouch services.</h5>
+                    </li>
+                </ol>
             </div>
         </section>
 
@@ -384,7 +456,7 @@
                     <input type='text' name='phone_number' value="Enter your phone number*">
                     <br><br>
                     <label for="date">Choose date</label>
-                    <input type="date" id="date" name="date" />
+                    <input type="date" id="date" name="date">
                     <br><br>
                     <input type='text' name='message' value="Leave your message">
                     <br><br>
