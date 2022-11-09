@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 17px;
+    color: var(--primary-text-color);
+}
+
+body {
     background-color: var(--primary-background-color);
 }
 
