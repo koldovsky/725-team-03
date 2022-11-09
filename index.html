@@ -17,7 +17,6 @@
     <!--Юрій-->
     <!-- Oleh Onopriichuk-->
     <!-- Віктор Зварич -->
-
     <!-- Block-0 Віктор Зварич -->
     <header class="header">
         <nav class="header__nav">
@@ -47,7 +46,6 @@
             </ul>
         </nav>
     </header>
-
     <main class="main">
         <!-- Block-1  Віктор Зварич -->
         <section class="hero">
@@ -61,31 +59,35 @@
             <a href="#contact-form" class="main__banner-button capitalized">Contact Ryan</a>
             <img class="main__banner-three-dots" src="img/dots.svg" alt="Three dots">
         </section>
-
         <!--Block-2 Oleksii Novosiadlo-->
-        <div class="main__photo-of-girl">
-            <img width="400" src="img/photographer_takes_a_photo_of_the_girl.png"
-                alt="Photographer takes a photo of the girl.">
-        </div>
-        <section class="About-photographer">
-            <h2 class="About-photographer__title">About Ryan Allen</h2>
-            <hr class="About-photographer__line">
-            <p class="About-photographer__text">PROFESSIONAL PHOTOGRAPHER TAKING YOUR BRAND AND IDENTITY TO THE NEXT
-                LEVEL.</p>
-            <p class="About-photographer__text">Having worked and learned from world artists such as John Maison, Steven
-                Ferrel, Stanley Fingerstone, and Pierre de Fontanier in the course of his photographic sojourn at New
-                York, Ryan is undoubtedly a real craftsman who is able to see the beauty in ordinary things. </p>
-            <p class="About-photographer__text">As one of the best fashion photographers in New York City, Ryan Allen
-                has had the pleasure of working with Vogue, Cosmopolitan, Yves Saint Laurent, Harper’s Bazaar, Karl
-                Lagerfeld, Bella Hadid, Alexandra Daddario, and many others fashion brands and models.</p>
-            <a class="About-photographer__button" href="#">Learn more</a>
+        <section id="about">
+            <div class="main__photo-of-girl">
+                <img width="400" src="img/photographer_takes_a_photo_of_the_girl.png"
+                    alt="Photographer takes a photo of the girl.">
+            </div>
+            <div>
+                <h2 class="About-photographer h2-title text-align-left">About Ryan Allen</h2>
+                <hr class="About-photographer__line line line-left">
+                <p class="About-photographer__text">Professional photographer taking your brand and identify to the next
+                    level.</p>
+                <p class="About-photographer__text">Having worked and learned from world artists such as John Maison,
+                    Steven
+                    Ferrel, Stanley Fingerstone, and Pierre de Fontanier in the course of his photographic sojourn at
+                    New
+                    York, Ryan is undoubtedly a real craftsman who is able to see the beauty in ordinary things. </p>
+                <p class="About-photographer__text">As one of the best fashion photographers in New York City, Ryan
+                    Allen
+                    has had the pleasure of working with Vogue, Cosmopolitan, Yves Saint Laurent, Harper’s Bazaar, Karl
+                    Lagerfeld, Bella Hadid, Alexandra Daddario, and many others fashion brands and models.</p>
+                <a class="About-photographer__button" href="#">Learn more</a>
+            </div>
         </section>
-
         <!--Block-3 Oleksii Novosiadlo-->
-        <div class="latest-work">
-            <h2 class="latest-work__title">Latest Works</h2>
-            <hr class="latest-work__line">
-            <p class="latest-work__text">RYAN'S PASSION IS PHOTOSHOOTS FOR LOOKBOOKS AND COMMERCIALS.</p>
+        <div id="works">
+            <h2 class="latest-work h2-title text-align-center">Latest Works</h2>
+            <hr class="latest-work__line line line-center">
+            <p class="latest-work__text subtitle uppercase text-align-center">Ryan's passion is photoshoots for lookbook
+                and commercial.</p>
             <div class="latest-work__photos">
                 <img class="latest-work__image" width="300" src="img/girl_hides_from_sun.png"
                     alt="Girl hides from the sun">
@@ -101,29 +103,30 @@
             <hr class="main__banner-line">
             <p class="opportunitties">RYAN IS OPEN FOR NEW OPPORTUNITIES AND COLLABORATIONS.</p>
             <ul class="services__info">
-                <li>
+                <li class="portraits">
                     <img class="aperture-icon" src="img/aperture-icon.png" alt="aperture-icon">
-                    <h3>Portraits</h3>
-                    <p>Setting the right accents in beautiful portraits.</p>
-                    <a href="#">REQUEST A QUOTE</a>
+                    <h3 class="sevrvices__portraits">Portraits</h3>
+                    <p class="services__portraits__big-text">Setting the right accents in beautiful portraits.</p>
+                    <a class="services__portraits__request-a-quote" href="#">REQUEST A QUOTE</a>
                 </li>
-                <li>
+                <li class="streetphoto">
                     <img class="streetphoto-icon" src="img/streetphoto-icon.png" alt="streetphoto-icon">
-                    <h3>Street Style</h3>
-                    <p>Catching the brightest moments in the scenery of the big city.</p>
-                    <a href="#">REQUEST A QUOTE</a>
+                    <h3 class="sevrvices__street-style">Street Style</h3>
+                    <p class="services__street-style__big-text">Catching the brightest moments in the scenery of the big
+                        city.</p>
+                    <a class="services__street-style__request-a-quote" href="#">REQUEST A QUOTE</a>
                 </li>
-                <li>
+                <li class="advertising">
                     <img class="camera-icon" src="img/camera-icon.png" alt="camera-icon">
-                    <h3>Advertising</h3>
-                    <p>Shootings for advertising campaigns and e-commerce.</p>
-                    <a href="#">REQUEST A QUOTE</a>
+                    <h3 class="services__advertising">Advertising</h3>
+                    <p class="services__advertising__big-text">Shootings for advertising campaigns and e-commerce.</p>
+                    <a class="services__advertising__request-a-quote" href="#">REQUEST A QUOTE</a>
                 </li>
-                <li>
+                <li class="events">
                     <img class="lens-icon" src="img/lens-icon.png" alt="lens-icon">
-                    <h3>Events</h3>
-                    <p>Setting the right accents in beautiful portraits.</p>
-                    <a href="#">REQUEST A QUOTE</a>
+                    <h3 class="services__events">Events</h3>
+                    <p class="services__events__big-text">Setting the right accents in beautiful portraits.</p>
+                    <a class="services__events__request-a-quote" href="#">REQUEST A QUOTE</a>
                 </li>
             </ul>
         </section>
@@ -169,63 +172,61 @@
                 </div>
             </div>
         </section>
-        <!--Block -8 Yriy Murachov-->
-        <section class="testimonials">
-            <div class="testimonials__block">
-                <div class="testimonials__block__title">
-                    <p>TESTIMONIALS</p>
-                </div>
-                <div class="testimonials__block__name">
-                    <p>Amanda Li, Vogue</p>
-                </div>
-                <div class="testimonials__block__text">
-                    <p>Working with Ryan was an incredible experience. Everything was perfect from the very
-                        beginning of
-                        the
-                        photoshoot. Ryan is very talented in his field and you can really tell that he loves what he
-                        does.
-                        We
-                        absolutely love how all the images turned out and will go back to Ryan for future
-                        photoshoots.
-                    </p>
-                </div>
-                <div class="testimonials__backgroundphoto">
-                    <img src="img/testimonial-amanda-li.png" width="300" alt="Testimonial-Amanda-Li">
-                </div>
-                <div class="testimonials__block__title">
-                    <p>TESTIMONIALS</p>
-                </div>
-                <div class="testimonials__block__name">
-                    <p>Sam Hoe, YSL</p>
-                </div>
-                <div class="testimonials__block__text">
-                    <p>We have only pleasant impressions from working with this photographer. Ryan took all our
-                        wishes
-                        into
-                        account and really pleased us with excellent quality and stylish frames. We will contact
-                        this
-                        photographer for shooting our next collections for commercials. </p>
-                </div>
-                <div class="testimonials__backgroundphoto">
-                    <img src="img/testimonial-sam-hoe.png" width="300" alt="Testimonial Sam Hoe">
-                </div>
-                <div class="testimonials__block__title">
-                    <p>TESTIMONIALS</p>
-                </div>
-                <div class="testimonials__block__name">
-                    <p>Diana Peterson</p>
-                </div>
-                <div class="testimonials__block__text">
-                    <p>I am a beginner fashion model and do not yet have much experience in commercial shootings.
-                        Ryan
-                        has a
-                        unique way of making you feel comfortable in the frame. He does a great job of finding the
-                        best
-                        location, providing direction, and listening to your wishes. </p>
-                </div>
-                <div class="testimonials__backgroundphoto">
-                    <img src="img/testimonial-diana-peterson.png" width="300" alt="Diana Peterson">
-                </div>
+        <!--Block-8 Yriy Murachov-->
+        <section id="testimonials" class="testimonials">
+            <div class="testimonials__block__title">
+                <p>TESTIMONIALS</p>
+            </div>
+            <div class="testimonials__block__name">
+                <p>Amanda Li, Vogue</p>
+            </div>
+            <div class="testimonials__block__text">
+                <p>Working with Ryan was an incredible experience. Everything was perfect from the very
+                    beginning of
+                    the
+                    photoshoot. Ryan is very talented in his field and you can really tell that he loves what he
+                    does.
+                    We
+                    absolutely love how all the images turned out and will go back to Ryan for future
+                    photoshoots.
+                </p>
+            </div>
+            <div class="testimonials__backgroundphoto">
+                <img src="img/testimonial-amanda-li.png" width="300" alt="Testimonial-Amanda-Li">
+            </div>
+            <div class="testimonials__block__title">
+                <p>TESTIMONIALS</p>
+            </div>
+            <div class="testimonials__block__name">
+                <p>Sam Hoe, YSL</p>
+            </div>
+            <div class="testimonials__block__text">
+                <p>We have only pleasant impressions from working with this photographer. Ryan took all our
+                    wishes
+                    into
+                    account and really pleased us with excellent quality and stylish frames. We will contact
+                    this
+                    photographer for shooting our next collections for commercials. </p>
+            </div>
+            <div class="testimonials__backgroundphoto">
+                <img src="img/testimonial-sam-hoe.png" width="300" alt="Testimonial Sam Hoe">
+            </div>
+            <div class="testimonials__block__title">
+                <p>TESTIMONIALS</p>
+            </div>
+            <div class="testimonials__block__name">
+                <p>Diana Peterson</p>
+            </div>
+            <div class="testimonials__block__text">
+                <p>I am a beginner fashion model and do not yet have much experience in commercial shootings.
+                    Ryan
+                    has a
+                    unique way of making you feel comfortable in the frame. He does a great job of finding the
+                    best
+                    location, providing direction, and listening to your wishes. </p>
+            </div>
+            <div class="testimonials__backgroundphoto">
+                <img src="img/testimonial-diana-peterson.png" width="300" alt="Diana Peterson">
             </div>
         </section>
 
@@ -337,10 +338,70 @@
                             <textarea name="message" cols="30" rows="10"></textarea>
                             <input type="submit" value="Request a quote">
 
+        <!--Block-13 Olha Stanislavska-->
+        <section class="faq">
+            <h2 class="faq__title h2-title text-align-center">FAQ</h2>
+            <hr class="faq__line line line-center">
+            <div class="faq__all-questions">
+                <details class="faq__question">
+                    <summary>Does Ryan shoot only in New York?</summary>
+                    Most of Ryan's projects are in New York but shooting is possible in other cities of the USA and
+                    other countries upon request.
+                </details>
+                <details class="faq__question">
+                    <summary>How long does the editing take?</summary>
+                    It all depends on the amount of footage and the number of photos that go through retouching.
+                </details>
+                <details class="faq__question">
+                    <summary>What does Ryan shoot?</summary>
+                    Ryan is a real guru of fashion, event, commercial photography, and portraits.
+                </details>
+                <details class="faq__question">
+                    <summary>How to schedule a shooting?</summary>
+                    Fill out the form below or contact Ryan directly. Tell which date you need, and Ryan will do his
+                    best to find a time slot for you.
+                </details>
+                <details class="faq__question">
+                    <summary>What if I have a creative idea for shooting?</summary>
+                    Ryan is open for inquires and interesting opportunities. TFP shoots are possible if your idea is
+                    really creative.
+                </details>
+                <details class="faq__question">
+                    <summary>Where can I find Ryan's works?</summary>
+                    Ryan's works are published in different fashion magazines: Haper's Bazaar, Vogue, Cosmopolitan,
+                    and
+                    many others.
+                </details>
             </div>
-        </footer>
-    </section>
+        </section>
+    </main>
+    <!-- Khrystyna Broshko -->
+    <div class="page_form">
+        <div class="block-form">
+            <div class="text_form">
+                Let`s start a conversation.
+                <hr>
+            </div>
+            <div class="sub_text_form">
+                RYAN IS LOOKING FORWARD TO HEARING MORE ABOUT YOUR PROJECT AND IDEAS.
+            </div>
+            <div class="forms">
+                <form action="https://formspree.io/f/mwkzwgke" method="post">
+                    <input type='text' name='firstname' value="Enter your full name*">
+                    <br><br>
+                    <input type='text' name='phone_number' value="Enter your phone number*">
+                    <br><br>
+                    <label for="date">Choose date</label>
+                    <input type="date" id="date" name="date" />
+                    <br><br>
+                    <input type='text' name='message' value="Leave your message">
+                    <br><br>
+                    <input type='submit' value='REQUEST A QUOTE'>
 
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- Block-15 Віктор Зварич -->
     <footer class="footer">
     </footer>
