@@ -27,17 +27,20 @@
 }
 
 .latest-work__photos {
-    margin-top: 45px;
+    margin-top: 45px ;
 }
 
 /* Slideshow container */
 .latest-work__photos {
     max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
+    padding: 0px 24px;
   }
   
   /* Next & previous buttons */
-  .prev, .next {
+  .latest-work__prev, .latest-work__next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -50,15 +53,19 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
   }
+
+  .latest-work__prev {
+    left: 0;
+  }
   
   /* Position the "next button" to the right */
-  .next {
+  .latest-work__next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+  .latest-work__prev:hover, .latest-work__next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
@@ -83,5 +90,17 @@
   
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
-    .prev, .next {font-size: 11px}
+    .latest-work__prev, .latest-work__next {font-size: 11px}
+  }
+
+  .latest-work__image__girl-sun {
+    display: block;
+  }
+
+  .latest-work__image__girl-turn {
+    display: none;
+  }
+
+  .latest-work__image__girl-jaket {
+    display: none;
   }
