@@ -1,5 +1,5 @@
-.hero {
-}
+/* .hero {
+} */
 
 .hero__item {
   display: flex;
@@ -55,9 +55,6 @@
     align-items: center;
     flex: 1;
     margin: auto;
-  }
-
-  .hero__item {
   }
 }
 
