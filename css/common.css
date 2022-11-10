@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,12 +21,15 @@ body {
     --primary-text-color: #ffffff;
     --secondary-text-color: #c09a64;
     --paragraph-text-color: #bababa;
-    --primary-background-color: #000000;
+    --line-color: #bababa;
+    --primary-background-color: rgb(17 17 17);
     --secondary-background-color: #1c1c1c;
     --button-background-color: #c09a64;
+    --conteiner-background-color: rgb(28 28 28);
 }
 
 img {
     display: block;
     width: 100%;
+    height: 100%;
 }
