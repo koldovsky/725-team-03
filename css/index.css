@@ -1,4 +1,6 @@
-@import url(common.css);
+@import url(common.css);  /* загальні стилі */
+@import url(controls.css);  /* кнопки */
+
 @import url(header.css);  /* Block-0 Віктор Зварич */
 @import url(hero.css);    /* Block-1 Віктор Зварич */
 @import url(about.css);   /* Block-2 Олексій Новосядло */
