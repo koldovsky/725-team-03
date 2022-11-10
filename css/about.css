@@ -1,18 +1,19 @@
 #about {
+    margin-top: 50px;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 .main__photo-of-girl,
 .about__container {
-    margin-top: 50px;
     padding: 0px 15px;
 }
 
 .main__photo-of-girl {
+    margin-bottom: 50px;
     position: relative;
     object-fit: cover;
-    object-position: 31.814% 87.759%;
+    height: auto;
 }
 
 .about-photographer__title {
@@ -62,4 +63,21 @@
     padding: 19px 21px;
     margin: 10px;
     text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #about {
+        display: flex;
+        font-display: row;
+    }
+
+    .main__photo-of-girl {
+        position: relative;
+        flex-basis: 100%;
+    }
+
+    .about__container {
+        flex-basis: 100%;
+
+    }
 }
