@@ -1,47 +1,47 @@
 #works {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .latest-work__title {
-    font-family: var(--secondary-font);
-    font-size: 28px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: .05em;
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .05em;
 }
 
 .latest-work__line {
-    height: 1px;
-    width: 10%;
-    background-color: var(--line-color);
-    margin: 15px auto 15px auto;
+  height: 1px;
+  width: 10%;
+  background-color: var(--line-color);
+  margin: 15px auto 15px auto;
 }
 
 .latest-work__text {
-    text-transform: uppercase;
-    font-family: var(--primary-font);
-    color: var(--paragraph-text-color);
-    font-size: 14px;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  color: var(--paragraph-text-color);
+  font-size: 14px;
 }
 
 .latest-work__photos {
-    margin-top: 45px ;
-    display: grid;
+  margin-top: 45px;
+  display: grid;
 }
 
 /* Slideshow container */
 .latest-work__photos {
-    max-width: 1170px;
-    min-height: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    padding: 0px 24px;
-  }
-  
-  /* Next & previous buttons 
+  max-width: 1170px;
+  min-height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0px 24px;
+}
+
+/* Next & previous buttons 
   .latest-work__prev, .latest-work__next {
     cursor: pointer;
     position: absolute;
@@ -57,49 +57,63 @@
     border-radius: 100%;
   }*/
 
-  /* Fading animation */
-  .latest-work__fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .latest-work__prev, .latest-work__next {font-size: 11px}
+/* Fading animation */
+.latest-work__fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
   }
 
-  .latest-work__image__girl-sun {
-    display: grid;
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
   }
 
-  .latest-work__image__girl-turn {
-    display: none;
-    padding: 0px auto;
+  to {
+    opacity: 1
   }
+}
 
-  .latest-work__image__girl-jaket {
-    display: none;
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+  .latest-work__prev,
+  .latest-work__next {
+    font-size: 11px
   }
+}
 
-  .latest-work__image {
-    padding: auto;
+.latest-work__image__girl-sun {
+  display: grid;
+}
 
-  }
+.latest-work__image__girl-turn {
+  display: none;
+  padding: 0px auto;
+}
+
+.latest-work__image__girl-jaket {
+  display: none;
+}
+
+.latest-work__image {
+  padding: auto;
+
+}
 
 .latest-work__prev__container,
-.latest-work__next__container{
+.latest-work__next__container {
   position: absolute;
   top: 50%;
   background-color: var(--button-background-color);
@@ -107,14 +121,15 @@
   height: 24px;
   width: 24px;
   color: var(--button_slide_color);
-  
+
 }
 
-.latest-work__prev__container{
+.latest-work__prev__container {
   left: 1%;
 }
 
-.latest-work__prev__container:hover{
+.latest-work__prev__container:hover,
+.latest-work__next__container:hover {
   background-color: var(--button_slide_color);
 }
 
@@ -128,6 +143,7 @@
 }
 
 @media (min-width: 768px) {
+
   /*.latest-work__image {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -144,5 +160,10 @@
   .latest-work__image__girl-jaket {
     display: none;
   }*/
-  
+  .latest-work__prev__container:hover,
+  .latest-work__next__container:hover {
+    height: 28px;
+    width: 28px;
+  }
+
 }
