@@ -2,6 +2,7 @@
     margin-top: 50px;
     padding-left: 24px;
     padding-right: 24px;
+    max-width: 1170px;
 }
 
 
@@ -61,16 +62,23 @@
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
+.main__photo-of-girl_img {
+    object-fit: cover;
+}
+
+@media (min-width: 680px) {
     #about {
         display: flex;
         font-display: row;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .main__photo-of-girl {
         position: relative;
         flex-basis: 100%;
         margin-bottom: 0px;
+        max-height: 460px;
     }
 
     .about__container {
@@ -79,3 +87,5 @@
 
     }
 }
+
+
