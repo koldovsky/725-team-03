@@ -130,7 +130,7 @@
 
 .latest-work__prev__container:hover,
 .latest-work__next__container:hover {
-  background-color: var(--button_slide_color);
+  background-color: var(--button-slide-color);
 }
 
 .latest-work__next__container {

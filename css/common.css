@@ -26,8 +26,8 @@ body {
     --primary-background-color: rgb(17 17 17);
     --secondary-background-color: #1c1c1c;
     --button-background-color: #c09a64;
-    --conteiner-background-color: rgb(28 28 28);
-    --button_slide_color: rgba(192, 154, 100, 0.5);
+    --container-background-color: rgb(28 28 28);
+    --button-slide-color: rgba(192, 154, 100, 0.5);
 
 }
 
