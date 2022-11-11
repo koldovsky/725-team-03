@@ -70,6 +70,7 @@
     .main__photo-of-girl {
         position: relative;
         flex-basis: 100%;
+        margin-bottom: 0px;
     }
 
     .about__container {
