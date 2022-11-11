@@ -11,6 +11,7 @@
 
 body {
     background-color: var(--primary-background-color);
+    min-width: 320px;
 }
 
 :root {
@@ -67,3 +68,6 @@ img {
     background-color:#bababa;
     margin: auto;
 }
+
+
+
