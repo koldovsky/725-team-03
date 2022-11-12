@@ -13,7 +13,7 @@
     text-decoration: none;
 }
 
-.primary-btn {
+.primary-btn:hover {
     background-color: var(--paragraph-text-color);
 }
 
