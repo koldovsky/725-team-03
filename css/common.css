@@ -3,7 +3,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-size: 17px;
     color: var(--primary-text-color);
@@ -28,7 +27,8 @@ body {
     --button-background-color: #c09a64;
     --container-background-color: rgb(28 28 28);
     --button-slide-color: rgba(192, 154, 100, 0.5);
-
+    max-width: 1170px;
+    margin: auto;
 }
 
 img {
@@ -65,7 +65,7 @@ img {
 
 .short-line {
     height: 1px;
-    background-color:#bababa;
+    background-color: var(--line-color);
     margin: auto;
 }
 

@@ -31,7 +31,7 @@
   display: grid;
 }
 
-/* Slideshow container */
+
 .latest-work__photos {
   max-width: 1170px;
   min-height: max-content;
@@ -41,23 +41,7 @@
   padding: 0px 24px;
 }
 
-/* Next & previous buttons 
-  .latest-work__prev, .latest-work__next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: 5%;
-    height: 5%;
-    padding: 0px 16px 20px 16px;
-    background-color: var(--button-background-color);
-    color:var(--paragraph-text-color);
-    font-weight: bold;
-    font-size: 100%;
-    transition: 0.6s ease;
-    border-radius: 100%;
-  }*/
 
-/* Fading animation */
 .latest-work__fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -85,7 +69,7 @@
   }
 }
 
-/* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
 
   .latest-work__prev,
@@ -144,26 +128,34 @@
 
 @media (min-width: 768px) {
 
-  /*.latest-work__image {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-
-  }
-  .latest-work__image__girl-sun {
-    display: grid;
-  }
-
-  .latest-work__image__girl-turn {
-    display: grid;
-  }
-
-  .latest-work__image__girl-jaket {
-    display: none;
-  }*/
   .latest-work__prev__container:hover,
   .latest-work__next__container:hover {
     height: 28px;
     width: 28px;
   }
 
+}
+
+@media (min-width: 1000px) {
+  .latest-work__prev,
+  .latest-work__next {
+    font-size: 28px;
+  }
+
+  .latest-work__prev__container,
+  .latest-work__next__container {
+     background-color: var(--primary-background-color);
+  }
+  .latest-work__prev__container:hover,
+  .latest-work__next__container:hover {
+    background-color: var(--primary-background-color);
+  }
+
+  .latest-work__next__container {
+    right: 0;
+  }
+
+  .latest-work__prev__container {
+    left: 0;
+  }
 }
