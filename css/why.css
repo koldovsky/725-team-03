@@ -1,0 +1,29 @@
+#why {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.why_ryan__title {
+    font-family: var(--secondary-font);
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-align: center;
+}
+
+.why_ryan__line  {
+    height: 1px;
+    width: 10%;
+    background-color: var(--line-color);
+    margin: 15px auto 15px auto;
+}
+
+.why_ryan__second_title {
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    color: var(--paragraph-text-color);
+    font-size: 14px;
+    text-align: center;
+}
