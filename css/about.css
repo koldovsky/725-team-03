@@ -1,0 +1,91 @@
+#about {
+    margin-top: 50px;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1170px;
+}
+
+
+.main__photo-of-girl {
+    margin-bottom: 50px;
+    position: relative;
+    object-fit: cover;
+    height: auto;
+}
+
+.about-photographer__title {
+    font-family: var(--secondary-font);
+    letter-spacing: .048em;
+    font-size: 28px;
+    padding: 0px 15px;
+}
+
+.about-photographer__text {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    color: var(--paragraph-text-color);
+    margin-top: 25px;
+    padding: 0px 15px;
+    letter-spacing: .1em
+}
+
+.about__text-container {
+    padding: 31 29;
+    background-color: var(--container-background-color);
+}
+
+.about-photographer__line {
+    height: 1px;
+    width: 10%;
+    background-color: var(--line-color);
+    margin: 15px 0px 15px 15px;
+}
+
+.about-photographer__text__sub-title {
+    text-transform: uppercase;
+}
+
+.about-photographer__container__button {
+    margin-top: 25px;
+    padding: 25px 15px 45px 15px;
+}
+
+.about-photographer__button {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--button-background-color);
+    border: 1px;
+    padding: 19px 21px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.main__photo-of-girl_img {
+    object-fit: cover;
+}
+
+@media (min-width: 680px) {
+    #about {
+        display: flex;
+        font-display: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main__photo-of-girl {
+        position: relative;
+        flex-basis: 100%;
+        margin-bottom: 0px;
+        max-height: 460px;
+    }
+
+    .about__container {
+        flex-basis: 100%;
+        margin-left: 25px;
+
+    }
+}
+
+

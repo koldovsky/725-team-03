@@ -1,0 +1,19 @@
+@import url(common.css);  /* загальні стилі */
+@import url(controls.css);  /* кнопки */
+
+@import url(header.css);  /* Block-0 Віктор Зварич */
+@import url(hero.css);    /* Block-1 Віктор Зварич */
+@import url(about.css);   /* Block-2 Олексій Новосядло */
+@import url(works.css);   /* Block-3 Олексій Новосядло */
+/* Block-4 Бандура Роман */
+/* Block-5 Бандура Роман */
+/* Block-6 Олег Онопрійчук */
+/* Block-7 Миронюк Марта */
+/* Block-8 Юрій Мурачов */
+/* Block-9 Миронюк Марта */
+/* Block-10 Максим Мельник */
+@import url(pricing.css); /* Block-11 Максим Мельник */
+/* Block-12 Ольга Станіславська */
+/* Block-13 Ольга Станіславська */
+@import url(form.css);    /* Block-14 Брошко Христина */
+@import url(footer.css);  /* Block-15 Віктор Зварич*/

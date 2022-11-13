@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R.Allen Photography</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="icons/tab-icone.png" sizes="16x16">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/works.js"></script>
 </head>
 
 <!-- 
@@ -31,82 +33,116 @@ Block-15 Віктор Зварич -->
     <!-- Block-0 Віктор Зварич -->
     <header class="header">
         <nav class="header__nav">
-            <a href="/" class="header__logo">
-                <img class="header__logo-image" src="img/logo.svg" width="174"
-                    alt="Logo image of the 'R.Allen Photography' website">
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link" href="#about">About</a>
-                </li>
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link" href="#services">Services</a>
-                </li>
-                <li class="nav-men__item">
-                    <a class="nav-menu__link" href="#works">Latest works</a>
-                </li>
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link" href="#testimonials">Testimonials</a>
-                </li>
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link" href="#contact-form">Contact Ryan</a>
-                </li>
-            </ul>
+            <div class="nav-logo">
+                <a href="./" class="header__logo">
+                    <img class="header__logo-image" src="img/logo.svg" width="174"
+                        alt="Logo image of the 'R.Allen Photography' website">
+                </a>
+                <div class="nav-burger">
+                    <span></span>
+                </div>
+            </div>
+            <div class="nav-wrapper">
+                <ul class="nav-menu">
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#about">About</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#works">Latest works</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a class="nav-menu__link" href="#contact-form">Contact Ryan</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
-    <main class="main">
         <!-- Block-1  Віктор Зварич -->
         <section class="hero">
-            <h1 class="hero__title h2-title text-align-center">
-                <span class="hero__profession uppercase">Fashion photographer</span>
-                <span class="hero__name">Ryan Allen</span>
-            </h1>
-            <hr class="hero__line line line-center">
-            <p class="hero__text subtitle uppercase">A New York based photographer specializing in women’s and men’s
-                fashion, street style, event, and portrait photography.</p>
-            <a href="#contact-form" class="hero__button uppercase">Contact Ryan</a>
-            <img class="hero__image-dots" src="img/dots.svg" alt="Three dots">
+            <div class="hero__item">
+                <h1 class="hero__title">
+                    <span class="hero__profession uppercase">Fashion photographer</span>
+                    <span class="hero__name">Ryan Allen</span>
+                </h1>
+                <div class="hero__line short-line"></div>
+                <p class="hero__subtitle subtitle uppercase">A New York based photographer specializing in women’s and
+                    men’s
+                    fashion, street style, event, and portrait photography.</p>
+                <a href="#contact-form" class="secondary-btn uppercase">Contact Ryan</a>
+                <img class="hero__image-dots" src="img/dots.svg" alt="Three dots">
+            </div>
+            <div class="hero__item">
+            </div>
         </section>
+    </header>
+
+    <main class="main">
         <!--Block-2 Oleksii Novosiadlo-->
         <section id="about">
             <div class="main__photo-of-girl">
-                <img width="400" src="img/photographer_takes_a_photo_of_the_girl.png"
+                <img class="main__photo-of-girl_img " src="img/photographer_takes_a_photo_of_the_girl.png"
                     alt="Photographer takes a photo of the girl.">
             </div>
-            <div>
-                <h2 class="About-photographer h2-title text-align-left">About Ryan Allen</h2>
-                <hr class="About-photographer__line line line-left">
-                <p class="About-photographer__text">Professional photographer taking your brand and identify to the next
-                    level.</p>
-                <p class="About-photographer__text">Having worked and learned from world artists such as John Maison,
-                    Steven
-                    Ferrel, Stanley Fingerstone, and Pierre de Fontanier in the course of his photographic sojourn at
-                    New
-                    York, Ryan is undoubtedly a real craftsman who is able to see the beauty in ordinary things. </p>
-                <p class="About-photographer__text">As one of the best fashion photographers in New York City, Ryan
-                    Allen
-                    has had the pleasure of working with Vogue, Cosmopolitan, Yves Saint Laurent, Harper’s Bazaar, Karl
-                    Lagerfeld, Bella Hadid, Alexandra Daddario, and many others fashion brands and models.</p>
-                <a class="About-photographer__button" href="#">Learn more</a>
+            <div class="about__container">
+                <div class="about__text-container">
+                    <h2 class="about-photographer__title h2-title text-align-left">About Ryan Allen</h2>
+                    <hr class="about-photographer__line line line-left">
+                    <p class="about-photographer__text about-photographer__text__sub-title">Professional photographer
+                        taking your brand and identify to the
+                        next
+                        level.</p>
+                    <p class="about-photographer__text">Having worked and learned from world artists such as John
+                        Maison,
+                        Steven
+                        Ferrel, Stanley Fingerstone, and Pierre de Fontanier in the course of his photographic sojourn
+                        at
+                        New
+                        York, Ryan is undoubtedly a real craftsman who is able to see the beauty in ordinary things.
+                    </p>
+                    <p class="about-photographer__text">As one of the best fashion photographers in New York City, Ryan
+                        Allen
+                        has had the pleasure of working with Vogue, Cosmopolitan, Yves Saint Laurent, Harper’s Bazaar,
+                        Karl
+                        Lagerfeld, Bella Hadid, Alexandra Daddario, and many others fashion brands and models.</p>
+
+                    <div class="about-photographer__container__button">
+                        <a class="about-photographer__button" href="#collaboration">Learn more</a>
+                    </div>
+                </div>
             </div>
         </section>
         <!--Block-3 Oleksii Novosiadlo-->
         <div id="works">
-            <h2 class="latest-work h2-title text-align-center">Latest Works</h2>
-            <hr class="latest-work__line line line-center">
-            <p class="latest-work__text subtitle uppercase text-align-center">Ryan's passion is photoshoots for lookbook
+            <h2 class="latest-work__title h2-title">Latest Works</h2>
+            <hr class="latest-work__line">
+            <p class="latest-work__text">Ryan's passion is photoshoots for lookbook
                 and commercial.</p>
             <div class="latest-work__photos">
-                <img class="latest-work__image" width="300" src="img/girl_hides_from_sun.png"
-                    alt="Girl hides from the sun">
-                <img class="latest-work__image" width="300" src="img/girl_in_a_half_turn.png"
-                    alt="A girl in a half turn">
-                <img class="latest-work__image" width="300" src="img/beautiful_girl_in_jacket.png"
-                    alt="Beatiful girl in a jacket">
+                <div class="latest-work__image latest-work__image__girl-sun latest-work__fade"><img
+                        src="img/girl_hides_from_sun.png" alt="Girl hides from the sun">
+                </div>
+                <div class="latest-work__image latest-work__image__girl-turn latest-work__fade"><img
+                        src="img/girl_in_a_half_turn.png" alt="A girl in a half turn">
+                </div>
+                <div class="latest-work__image latest-work__image__girl-jaket latest-work__fade"><img
+                        src="img/beautiful_girl_in_jacket.png" alt="Beatiful girl in a jacket">
+                </div>
+                <div class="latest-work__prev__container">
+                    <a class="latest-work__prev" onclick="plusSlides(-1)">❮</a>
+                </div>
+                <div class="latest-work__next__container">
+                    <a class="latest-work__next" onclick="plusSlides(1)">❯</a>
+                </div>
             </div>
+        </div>
         </div>
         <!-- Block-4 bandura roman -->
         <section id="services">
@@ -265,7 +301,7 @@ Block-15 Віктор Зварич -->
         </section>
         <!--Block-9 Myroniuk Marta-->
         <section>
-            <header>
+            <header id="collaboration">
                 <h1>Collaboration</h1>
                 <hr />
                 <h5>LET'S CREATE SOMETHING GREAT AND BEAUTIFUL TOGETHER.</h5>
@@ -299,108 +335,57 @@ Block-15 Віктор Зварич -->
         <section class="pricing">
             <section>
             <h2 class="h2-title text-align-center">Pricing</h2>
-            <hr class="short-line">
+            <hr class="line line-center">
             <p class="subtitle uppercase">the cost of shooting can be discussed according to the conditions.</p>
             </section>
             <section>
-            <img width="150" src="img/pricing_portraits.png" alt="Portraits">
-            <p class="service name">Portraits</p>
-            <p class="costs">from $120/hour</p>
-            <p class="pricing_description">Capturing your beauty in every detail. The price includes 3 styles and 20 edited photos per style.</p>
-            <p a href="#contact-form">Learn more</a>></p>
+                <img width="150" src="img/pricing_portraits.png" alt="Portraits">
+                <p class="service name">Portraits</p>
+                <p class="costs">from $120/hour</p>
+                <p class="pricing_description">Capturing your beauty in every detail. The price includes 3 styles and 20
+                    edited photos per style.</p>
+                <p a href="#contact-form">Learn more</a>></p>
             </section>
             <section>
-            <img width="150" src="img/pricing_street_style.png" alt="Street Style">
-            <p class="service name">Street Style</p>
-            <p class="costs">from $130/hour</p>
-            <p class="pricing_description">It is the best option to show your brand in the everyday scenery. Changing tent provided.</p>
-            <a href="#contact-form">Learn more</a>
+                <img width="150" src="img/pricing_street_style.png" alt="Street Style">
+                <p class="service name">Street Style</p>
+                <p class="costs">from $130/hour</p>
+                <p class="pricing_description">It is the best option to show your brand in the everyday scenery.
+                    Changing tent provided.</p>
+                <a href="#contact-form">Learn more</a>
             </section>
             <section>
-            <img width="150" src="img/pricing_events.png" alt="Events">
-            <p class="service name">Events</p>
-            <p class="costs">from $150/hour</p>
-            <p class="pricing_description">Shooting at your special events: fashion shows, benefit events, gala banquets, etc.</p>
-            <a href="#contact-form">Learn more</a>
+                <img width="150" src="img/pricing_events.png" alt="Events">
+                <p class="service name">Events</p>
+                <p class="costs">from $150/hour</p>
+                <p class="pricing_description">Shooting at your special events: fashion shows, benefit events, gala
+                    banquets, etc.</p>
+                <a href="#contact-form">Learn more</a>
             </section>
             <section>
-            <img width="150" src="img/pricing_campaigns.png" alt="Campaigns">
-            <p class="service name">Campaigns</p>
-            <p class="costs">from $180/hour</p>
-            <p class="pricing_description">Shootings for magazines, brands, e-commerce, advertising campaigns, lookbooks, etc.</p>
-            <a href="#contact-form">Learn more</a>
+                <img width="150" src="img/pricing_campaigns.png" alt="Campaigns">
+                <p class="service name">Campaigns</p>
+                <p class="costs">from $180/hour</p>
+                <p class="pricing_description">Shootings for magazines, brands, e-commerce, advertising campaigns,
+                    lookbooks, etc.</p>
+                <a href="#contact-form">Learn more</a>
             </section>
         </section>
 
-            <!--Block-12 Olha Stanislavska-->
-            <section class="portfolio">
-                <h2 class="portfolio__title h2-title text-align-center">Portfolio</h2>
-                <hr class="portfolio__line line line-center">
-                <p class="portfolio__subtitle subtitle uppercase">Every frame is important. Every photoshoot is art.</p>
-                <img class="portfolio__image" width="360" src="img/portfolio-girl-in-lush-dress.png"
-                    alt="A girl in a lush dress">
-                <img class="portfolio__image" width="360" src="img/portfolio-girl-with-mirror.png"
-                    alt="A girl with a mirror">
-                <img class="portfolio__image" width="360" src="img/portfolio-portrait-with-flower-earring.png"
-                    alt="A portrait of the girl in flower earring">
-                <img class="portfolio__image" width="360" src="img/portfolio-portrait-with-hand.png"
-                    alt="A portrait of the girl with hand near her face">
-            </section>
-
-            <!--Block-13 Olha Stanislavska-->
-            <section class="faq">
-                <h2 class="faq__title h2-title text-align-center">FAQ</h2>
-                <hr class="faq__line line line-center">
-                <div class="faq__all-questions">
-                    <details class="faq__question">
-                        <summary>Does Ryan shoot only in New York?</summary>
-                        Most of Ryan's projects are in New York but shooting is possible in other cities of the USA and
-                        other countries upon request.
-                    </details>
-                    <details class="faq__question">
-                        <summary>How long does the editing take?</summary>
-                        It all depends on the amount of footage and the number of photos that go through retouching.
-                    </details>
-                    <details class="faq__question">
-                        <summary>What does Ryan shoot?</summary>
-                        Ryan is a real guru of fashion, event, commercial photography, and portraits.
-                    </details>
-                    <details class="faq__question">
-                        <summary>How to schedule a shooting?</summary>
-                        Fill out the form below or contact Ryan directly. Tell which date you need, and Ryan will do his
-                        best to find a time slot for you.
-                    </details>
-                    <details class="faq__question">
-                        <summary>What if I have a creative idea for shooting?</summary>
-                        Ryan is open for inquires and interesting opportunities. TFP shoots are possible if your idea is
-                        really creative.
-                    </details>
-                    <details class="faq__question">
-                        <summary>Where can I find Ryan's works?</summary>
-                        Ryan's works are published in different fashion magazines: Haper's Bazaar, Vogue, Cosmopolitan,
-                        and
-                        many others.
-                    </details>
-                </div>
-            </section>
-
-    </main>
-
-    <!-- Block-14 Христина Брошко-->
-    <a name="contact-form"></a>
-    <section class="form">
-        <footer class="footer">
-            <div class="footer_contacts">
-                <form action="https://formspree.io/f/mwkzwgke" method="post">
-                    <hr class="Form_for_users">
-                    <h2>Let's start a conversation.<h2>
-                            <div class="row"></div>
-                            <p>RYAN IS LOOKING FORWARD TO HEARING MORE ABOUT YOUR PROJECT AND IDEAS.</p>
-                            <input type="name" class="user_name" placeholder="Enter your full name*" required="">
-                            <input type="tel" class="user_tel" placeholder="Enter your phone number*" required="">
-                            <input type="date" class="date">
-                            <textarea name="message" cols="30" rows="10"></textarea>
-                            <input type="submit" value="Request a quote">
+        <!--Block-12 Olha Stanislavska-->
+        <section class="portfolio">
+            <h2 class="portfolio__title h2-title text-align-center">Portfolio</h2>
+            <hr class="portfolio__line line line-center">
+            <p class="portfolio__subtitle subtitle uppercase">Every frame is important. Every photoshoot is art.</p>
+            <img class="portfolio__image" width="360" src="img/portfolio-girl-in-lush-dress.png"
+                alt="A girl in a lush dress">
+            <img class="portfolio__image" width="360" src="img/portfolio-girl-with-mirror.png"
+                alt="A girl with a mirror">
+            <img class="portfolio__image" width="360" src="img/portfolio-portrait-with-flower-earring.png"
+                alt="A portrait of the girl in flower earring">
+            <img class="portfolio__image" width="360" src="img/portfolio-portrait-with-hand.png"
+                alt="A portrait of the girl with hand near her face">
+        </section>
 
         <!--Block-13 Olha Stanislavska-->
         <section class="faq">
@@ -438,40 +423,95 @@ Block-15 Віктор Зварич -->
                 </details>
             </div>
         </section>
-    </main>
-    <!-- Khrystyna Broshko -->
+        <!-- Khrystyna Broshko -->
+        <div class="main_form">
+            <div class="main_background_for_form">
+                <div class="background_for_form">
+                    <div class="page_form">
+                        <div class="block-form">
+                            <div class="text_form">
+                                Let`s start a conversation.
+                                <hr>
+                            </div>
+                            <div class="sub_text_form">
+                                RYAN IS LOOKING FORWARD TO HEARING MORE ABOUT YOUR PROJECT AND
+                                IDEAS.
+                            </div>
+                            <div class="forms">
+                                <form action="https://formspree.io/f/mwkzwgke" method="post">
+                                    <div class="full_name_form"> <input type='text' name='firstname'
+                                            value="Enter your full name*">
+                                    </div>
+                                    <div class="full_name_form"><input type='text' name='phone_number'
+                                            value="Enter your phone number*">
+                                    </div>
+                                    <br><br>
+                                    <div class="date_form"><label for="date">Choose date</label>
+                                        <input type="date" id="date" name="date">
+                                    </div>
+                                    <br><br>
+                                    <div class="full_name_form"><input type='text' name='message'
+                                            value="Leave your message"></div>
+                                    <br><br>
+                                    <input type='submit' class="button-submit" value='REQUEST A QUOTE'>
 
-    <div class="page_form">
-        <div class="block-form">
-            <div class="text_form">
-                Let`s start a conversation.
-                <hr>
-            </div>
-            <div class="sub_text_form">
-                RYAN IS LOOKING FORWARD TO HEARING MORE ABOUT YOUR PROJECT AND IDEAS.
-            </div>
-            <div class="forms">
-                <form action="https://formspree.io/f/mwkzwgke" method="post">
-                    <div class="full_name_form"> <input type='text' name='firstname' value="Enter your full name*">
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="full_name_form"><input type='text' name='phone_number' value="Enter your phone number*">
-                    </div>
-                    <br><br>
-                    <div class="date_form"><label for="date">Choose date</label>
-                        <input type="date" id="date" name="date">
-                    </div>
-                    <br><br>
-                    <div class="full_name_form"><input type='text' name='message' value="Leave your message"></div>
-                    <br><br>
-                    <input type='submit' class="button" value='REQUEST A QUOTE'>
-
-                </form>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+
+    <!--Block-13 Olha Stanislavska-->
+    <section class="faq">
+        <h2 class="faq__title h2-title text-align-center">FAQ</h2>
+        <hr class="faq__line line line-center">
+        <div class="faq__all-questions">
+            <details class="faq__question">
+                <summary>Does Ryan shoot only in New York?</summary>
+                Most of Ryan's projects are in New York but shooting is possible in other cities
+                of the USA and
+                other countries upon request.
+            </details>
+            <details class="faq__question">
+                <summary>How long does the editing take?</summary>
+                It all depends on the amount of footage and the number of photos that go through
+                retouching.
+            </details>
+            <details class="faq__question">
+                <summary>What does Ryan shoot?</summary>
+                Ryan is a real guru of fashion, event, commercial photography, and portraits.
+            </details>
+            <details class="faq__question">
+                <summary>How to schedule a shooting?</summary>
+                Fill out the form below or contact Ryan directly. Tell which date you need, and
+                Ryan will do his
+                best to find a time slot for you.
+            </details>
+            <details class="faq__question">
+                <summary>What if I have a creative idea for shooting?</summary>
+                Ryan is open for inquires and interesting opportunities. TFP shoots are possible
+                if your idea is
+                really creative.
+            </details>
+            <details class="faq__question">
+                <summary>Where can I find Ryan's works?</summary>
+                Ryan's works are published in different fashion magazines: Haper's Bazaar,
+                Vogue, Cosmopolitan,
+                and
+                many others.
+            </details>
+        </div>
+    </section>
+
+    </main>
+
     <!-- Block-15 Віктор Зварич -->
     <footer class="footer">
     </footer>
+    <script src="js/header.js"></script>
 </body>
 
 </html>
