@@ -8,9 +8,14 @@
   background-position: 50% 100%;
 }
 
-/* .header__nav {
-      
-  }*/
+.header__nav {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+}
 
 body.lock {
   overflow: hidden;
