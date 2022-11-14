@@ -41,7 +41,23 @@ img {
     text-transform: uppercase;
 }
 
-.section-title {
+/* .section-title {
+    font-family: var(--secondary-font);
+    font-size: 28px;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.05em;
+} */
+ 
+.subtitle {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--paragraph-text-color);
+    letter-spacing: .1em
+} 
+
+.h2-title {
     font-family: var(--secondary-font);
     font-size: 28px;
     color: var(--primary-text-color);
@@ -50,24 +66,36 @@ img {
     letter-spacing: 0.05em;
 }
 
-.subtitle {
-    font-family: var(--primary-font);
-    font-size: 14px;
-    color: var(--paragraph-text-color);
-    letter-spacing: .1em
+.text-align-center {
+    text-align: center;
 }
 
-.paragraph-text {
+.text-align-left {
+    text-align: left;
+}
+
+p {
     font-family: var(--primary-font);
     color: var(--paragraph-text-color);
     letter-spacing: 0.1em
 }
 
-.short-line {
+/* .short-line {
     height: 1px;
     background-color: var(--line-color);
     margin: auto;
+} */
+
+.line {
+    height: 1px;
+    width: 8%;
+    background-color: var(--line-color);
 }
 
+.line-center {
+    margin: auto;
+}
 
-
+.line-left {
+    left: 0px;
+}
