@@ -1,3 +1,7 @@
+body.lock {
+  overflow: hidden;
+}
+
 .header {
   min-width: 320px;
   margin: auto;
@@ -9,28 +13,23 @@
 }
 
 .header__nav {
-  position: fixed;
-  top: 0;
-  width: 80%;
   display: flex;
-  justify-content: space-around;
-  z-index: 10;
-}
-
-body.lock {
-  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: auto;
 }
 
 .nav-logo {
   position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
+  max-width: 1200px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
+  margin: auto;
   padding: 0;
+  margin: 0 auto;
   z-index: 10;
 }
 
@@ -78,17 +77,14 @@ body.lock {
 
 .nav-burger.active::before {
   top: 50%;
-  transform: rotate(-45deg);
+  transform: rotate(-405deg);
 }
 
 .nav-burger.active::after {
   bottom: 40%;
-  transform: rotate(45deg);
+  transform: rotate(405deg);
 }
 
-/* div.container-section {
-    position: relative;
-  } */
 .nav-wrapper {
   position: fixed;
   top: -100%;
@@ -97,7 +93,6 @@ body.lock {
   height: 100%;
   background-color: var(--primary-background-color);
   z-index: 2;
-  transition: top 0.3s ease-in;
   padding: 15px 24px 50px 24px;
   transition: top 0.3s ease-in 0.1s;
   overflow: hidden;
@@ -122,9 +117,6 @@ body.lock {
   z-index: 10;
   padding-top: 100px;
 }
-
-/* .header__logo {
-  }  */
 
 .header__logo-image {
   width: 174px;
@@ -164,19 +156,6 @@ body.lock {
     overflow: visible;
   }
 
-  .header__nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    margin: auto;
-  }
-
-  .nav-logo {
-    width: 200px;
-  }
-
   .nav-menu {
     flex-direction: row;
     padding-top: 0;
@@ -197,7 +176,7 @@ body.lock {
     width: 100%;
     height: 100%;
     padding: 0;
-    background-color: #00000021;
+    background-color: rgba(0, 0, 0, 0.082);
     z-index: 10;
   }
 
