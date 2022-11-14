@@ -30,7 +30,6 @@
 }
 
 .about__text-container {
-    padding: 31 29;
     background-color: var(--container-background-color);
 }
 
@@ -69,7 +68,6 @@
 @media (min-width: 680px) {
     #about {
         display: flex;
-        font-display: row;
         margin-left: auto;
         margin-right: auto;
     }
