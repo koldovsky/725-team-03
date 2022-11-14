@@ -5,7 +5,7 @@ body.lock {
 .header {
   min-width: 320px;
   margin: auto;
-  padding: 0px 24px 0;
+  padding: 24px;
   background-image: url(../img/hero-background.png);
   background-attachment: fixed;
   background-size: cover;
@@ -22,13 +22,10 @@ body.lock {
 
 .nav-logo {
   position: relative;
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  margin: auto;
-  padding: 0;
   margin: 0 auto;
   z-index: 10;
 }
@@ -36,9 +33,9 @@ body.lock {
 .nav-burger {
   display: block;
   position: relative;
-  width: 30px;
-  height: 20px;
-  padding: 12px;
+  width: 24px;
+  height: 22px;
+  padding: 10px 15px;
   cursor: pointer;
   z-index: 5;
 }
@@ -48,7 +45,7 @@ body.lock {
 .nav-burger::after {
   position: absolute;
   left: 0;
-  height: 2px;
+  height: 2.5px;
   width: 100%;
   background-color: var(--primary-text-color);
   transition: all 0.5s ease-in-out;
@@ -116,6 +113,7 @@ body.lock {
   height: auto;
   z-index: 10;
   padding-top: 100px;
+  padding-inline-start: 0px;
 }
 
 .header__logo-image {
@@ -142,9 +140,9 @@ body.lock {
 .nav-menu__link {
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: bold;
   line-height: 3rem;
   color: inherit;
+  font-family: var(--primary-font);
 }
 
 .nav-menu__link:hover {
@@ -156,6 +154,10 @@ body.lock {
     overflow: visible;
   }
 
+  .header {
+  max-width: 1200px;
+  }
+
   .nav-menu {
     flex-direction: row;
     padding-top: 0;
@@ -163,7 +165,6 @@ body.lock {
 
   .nav-menu__link {
     font-size: 1rem;
-    font-weight: bold;
     line-height: 2rem;
   }
 
@@ -183,5 +184,6 @@ body.lock {
   .nav-menu__link {
     overflow: hidden;
     white-space: nowrap;
+    font-weight: normal;
   }
 }
