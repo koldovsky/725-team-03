@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.services-list {
+    list-style: none;
+}
 .main__banner-line {
     color: #fff;
     height: 1px;
@@ -39,12 +42,17 @@
     font-weight: 700;
     color: #fff;
     padding: 19px 21px;
+    border: 2px solid white;
 }
 .services-list__item {
     background-color: rgb(28 28 28);
     margin: 5px;
     padding: 33px 37px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .services-list-item__icon {
+    display: block;
     width: 70px;
     height: 70px;}
