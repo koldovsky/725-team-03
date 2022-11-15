@@ -1,35 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-/* font-family: 'Playfair Display', serif;
-font-family: 'PT Sans', sans-serif;
-
-*/
-
-.services__info {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: baseline;
-
-}
-
-
-.services-section {
-
+.section-services {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .main__banner-line {
     color: #fff;
     height: 1px;
     width: 10%;
     margin: 15px auto 15px auto;
 }
-
-.services-title {
+.section__services-title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #fff;
@@ -37,107 +17,34 @@ font-family: 'PT Sans', sans-serif;
     text-align: center;
 
 }
-
-.opportunitties-text {
+.section__services-text {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: #bababa;
     text-align: center;
+
 }
-
-
-
-
-.sevrvices__portraits-title {
+.services-list__title {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     color: #fff;
 }
-
-.services__portraits__text {
+.services-list__text {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: #b8b8b8;
 }
-
-.services__portraits__request-a-quote {
+.services-list__link {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
     color: #fff;
+    padding: 19px 21px;
 }
-
-
-
-.sevrvices__street-style-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-.services__street-style__text {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    color: #b8b8b8;
-}
-
-.services__street-style__request-a-quote {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-
-
-
-
-.services__advertising-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-.services__advertising__text {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    color: #b8b8b8;
-}
-
-.services__advertising__request-a-quote {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-.section__services__list {
-    width: 1000px;
-}
-
-
-
-
-
-
-.services__events-title {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-.services__events__text {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    color: #b8b8b8;
-}
-
-.services__events__request-a-quote {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    color: #fff;
-}
-
-.portraits,
-.streetphoto,
-.advertising,
-.events {
+.services-list__item {
     background-color: rgb(28 28 28);
+    margin: 5px;
+    padding: 33px 37px;
 }
+.services-list-item__icon {
+    width: 70px;
+    height: 70px;}
