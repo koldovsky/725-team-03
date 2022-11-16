@@ -64,6 +64,10 @@
     flex: 1;
     margin: auto;
   }
+
+  .hero__name {
+    font-size: 69px;
+  }
 }
 
 @media (min-width: 991px) {
@@ -76,7 +80,7 @@
     margin: auto;
   }
 
-  .nav-menu {
-    flex-direction: row;
+  .hero__name {
+    font-size: 80px;
   }
 }
