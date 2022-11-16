@@ -12,6 +12,9 @@
     .faq {
         padding: 0 32px;
     }
+    .faq__all-questions {
+        padding: 0 123px;
+    }
 }
     
 @media (min-width: 992px) {
@@ -30,4 +33,22 @@
 
 .faq__header {
     margin-bottom: 25px;
+}
+
+.faq__all-questions summary{
+    font-family: var(--secondary-font);
+    color: var(--secondary-text-color);
+    font-size: 23px;
+    font-weight: 600;    
+}
+
+.faq__all-questions p {
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.faq__qustion-line hr{
+    width: 100%;
+    bottom: 0;
+    opacity: 0.2;
 }
