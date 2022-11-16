@@ -1,0 +1,33 @@
+.block-faq {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.faq {
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+    .faq {
+        padding: 0 32px;
+    }
+}
+    
+@media (min-width: 992px) {
+    .faq {
+        padding: 0 40px;
+    }
+}
+
+.faq__header-line {
+    padding: 15px;
+}
+
+.faq__question {
+    padding: 20px 0;
+}
+
+.faq__header {
+    margin-bottom: 25px;
+}

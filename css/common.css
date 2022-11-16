@@ -99,3 +99,8 @@ p {
 .line-left {
     left: 0px;
 }
+
+@media (min-width: 768px) {
+    .h2-title {
+        font-size: 45px;    
+}
