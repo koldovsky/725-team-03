@@ -28,7 +28,7 @@ body {
     --container-background-color: rgb(28 28 28);
     --button-slide-color: rgba(192, 154, 100, 0.5);
     max-width: 1170px;
-    margin: auto;
+    
 }
 
 img {
