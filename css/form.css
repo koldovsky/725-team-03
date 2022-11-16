@@ -99,6 +99,7 @@
     padding-right: 10%;
 }
 .main_background_for_form img{
+    margin:0 !important;
     width: 100%;
     height: 100%;
 }
