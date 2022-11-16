@@ -82,8 +82,9 @@
 }
 .main_background_for_form{
     background-image: url("../img/manwithhat.png");
-    width: 100%;
+    max-width: 1100px;
     height:100%;
+    margin:auto;
 
   
 }
