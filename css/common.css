@@ -26,9 +26,7 @@ body {
     --secondary-background-color: #1c1c1c;
     --button-background-color: #c09a64;
     --container-background-color: rgb(28 28 28);
-    --button-slide-color: rgba(192, 154, 100, 0.5);
-    max-width: 1170px;
-    
+    --button-slide-color: rgba(192, 154, 100, 0.5);    
 }
 
 img {
@@ -103,4 +101,5 @@ p {
 @media (min-width: 768px) {
     .h2-title {
         font-size: 45px;    
+    }
 }
