@@ -1,6 +1,22 @@
 "use strict";
 
-// IIFE
+/*IIFE CLOCK */
+(() => {
+    function updateClock() {
+      const clockContainer = document.querySelector(".header-clock");
+      const options = {
+        weekday: "long",
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      };
+      clockContainer.innerText = new Date().toLocaleTimeString("en-GB", options);
+    }
+    setInterval(updateClock, 1000);
+
+})();
+
+/*IIFE NAV-MENU BURGER */
 (() => {
   
   const iconBurger = document.querySelector(".nav-burger");

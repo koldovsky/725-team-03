@@ -30,6 +30,13 @@ body.lock {
   z-index: 10;
 }
 
+.header-clock {
+  margin-top: 0.5rem;
+  padding-left: 50px;
+  padding-right: 15px;
+  color: var(--secondary-text-color);
+}
+
 .nav-burger {
   display: block;
   position: relative;
@@ -161,6 +168,10 @@ body.lock {
   .nav-menu {
     flex-direction: row;
     padding-top: 0;
+  }
+
+  .nav-logo {
+    min-width: 385px;
   }
 
   .nav-menu__link {
