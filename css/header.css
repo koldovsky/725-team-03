@@ -32,8 +32,6 @@ body.lock {
 
 .header-clock {
   margin-top: 0.5rem;
-  padding-left: 50px;
-  padding-right: 15px;
   color: var(--secondary-text-color);
 }
 
@@ -173,6 +171,11 @@ body.lock {
   .nav-logo {
     min-width: 385px;
   }
+
+  .header-clock {
+    padding-left: 50px;
+    padding-right: 15px;
+}
 
   .nav-menu__link {
     font-size: 1rem;
