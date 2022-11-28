@@ -1,7 +1,8 @@
 "use strict";
 
-/*IIFE CLOCK */
 (() => {
+    
+    /* CLOCK */
     function updateClock() {
       const clockContainer = document.querySelector(".header-clock");
       const options = {
@@ -14,11 +15,8 @@
     }
     setInterval(updateClock, 1000);
 
-})();
-
-/*IIFE NAV-MENU BURGER */
-(() => {
-  
+    
+  /*NAV-MENU BURGER */ 
   const iconBurger = document.querySelector(".nav-burger");
   const navigationsBody = document.querySelector(".nav-wrapper");
   iconBurger.addEventListener("click", function (e) {
