@@ -30,6 +30,7 @@
 .portfolio__carusel {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .portfolio__carusel-photoes {
@@ -48,6 +49,23 @@
     border-radius: 50%;
     height: 32px;
     width: 32px;
+    position: absolute;
+}
+
+.portfolio__carusel-btn-prev img, .portfolio__carusel-btn-next img  {
+    width: 20px;
+    height: 20px;
+}
+
+
+.portfolio__carusel-btn-prev {
+    top: 50%;
+    left: -0.5%;
+}
+
+.portfolio__carusel-btn-next {
+    top: 50%;
+    right: -0.5%;
 }
 
 /*
