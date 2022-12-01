@@ -371,10 +371,15 @@ Block-15 Віктор Зварич -->
                     </div>
                     <p class="portfolio__header-subtitle subtitle uppercase text-align-center">Every frame is important. Every photoshoot is art.</p>
                 </div>
-                <div class="portfolio__carusel">
-                    <button class="portfolio__carusel-btn-prev"> <img src="img/button-arrow-left.png" alt="button left"> </button>
-                    <div class="portfolio__carusel-photoes"></div>
-                    <button class="portfolio__carusel-btn-next"><img src="img/button-arrow-right.png" alt="button right"></button>
+                <div class="portfolio__carusel glider-contain">
+                    <button class="glider-prev portfolio__carusel-btn-prev"> <img src="img/button-arrow-left.png" alt="button left"> </button>
+                    <div class="portfolio__carusel-photoes glider">
+                        <div><img class="portfolio__carusel-image" src="img/portfolio-girl-in-lush-dress.png" alt="A girl in a lush dress"></div>
+                        <div><img class="portfolio__carusel-image" src="img/portfolio-girl-with-mirror.png" alt="A girl with a mirror"></div>
+                        <div><img class="portfolio__carusel-image" src="img/portfolio-portrait-with-flower-earring.png" alt="A portrait of the girl in flower earring"></div>
+                        <div><img class="portfolio__carusel-image" src="img/portfolio-portrait-with-hand.png" alt="A portrait of the girl with hand near her face"></div>
+                    </div>
+                    <button class="glider-next portfolio__carusel-btn-next"><img src="img/button-arrow-right.png" alt="button right"></button>
                 </div-portfolio__carusel>
             </section>
         </div>
@@ -522,7 +527,8 @@ Block-15 Віктор Зварич -->
     </footer>    
     <script src="js/header.js"></script>    
     <script type="text/javascript" src="js/works.js"></script>
-    <script src="js/portfolio-carousel.js"></script>
+    <script src="js/glider.js"></script>
+    <script src="js/portfolio-carousel.js"></script> 
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </body>
 
