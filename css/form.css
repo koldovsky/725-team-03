@@ -35,7 +35,7 @@
     --w-get-input-color: #FFFFFF;
     display: block;
     width: 100%;
-    margin-top: 12px
+    margin-top: 12px;
   
 }
 .full_name_form input{
@@ -82,14 +82,15 @@
 }
 .main_background_for_form{
     background-image: url("../img/manwithhat.png");
-    width: 100vw;
+    width: 100%;
+    background-size: cover;
     
     
 
   
 }
 .block-form {
-    width: 30%;
+    width: 35%;
     background-color: rgb(28, 28, 28);;
 }
 .page_form{
@@ -99,9 +100,8 @@
     padding-right: 10%;
 }
 .main_background_for_form img{
-    margin:0 !important;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 .hr_1{
     background-color: #fff;
@@ -114,4 +114,14 @@
     width: 80%;
     height: 50px;
     margin: 7% auto;
+}
+
+@media  (min-width: 0px) and (max-width:768px) {
+    .block-form {
+    width: 80%;
+    }
+    .page_form{
+        justify-content: center;
+    }
+
 }
