@@ -3,51 +3,50 @@
     padding-bottom: 110px;
 }
 
-.faq {
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
-@media (min-width: 768px) {
-    .faq {
-        padding: 0 32px;
-    }
-    .faq__all-questions {
-        padding: 0 123px;
-    }
-}
-    
-@media (min-width: 992px) {
-    .faq {
-        padding: 0 40px;
-    }
+.faq__header {
+    margin-bottom: 25px;
 }
 
 .faq__header-line {
     padding: 15px;
 }
 
-.faq__question {
+.faq__grid {
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+}
+
+@media (min-width: 768px) {
+    .faq__grid {
+        grid-template-columns: 16% auto 16%;
+    }
+}
+
+.faq__all-questions {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq__question-wrapper {
     padding: 20px 0;
 }
 
-.faq__header {
-    margin-bottom: 25px;
-}
-
-.faq__all-questions summary{
+.faq__question {
     font-family: var(--secondary-font);
     color: var(--secondary-text-color);
     font-size: 23px;
     font-weight: 600;    
 }
 
-.faq__all-questions p {
+.faq__question-answer {
+    font-family: var(--primary-font);
+    color: var(--paragraph-text-color);
+    font-size: 17px;
     letter-spacing: 0em;
-    margin-top: 20px;
+    padding-top: 15px;
 }
 
-.faq__qustion-line hr{
+.faq__question-line hr{
     width: 100%;
     bottom: 0;
     opacity: 0.2;
