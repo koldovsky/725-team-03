@@ -34,9 +34,7 @@
 
 .faq__question-container {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: stretch;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -46,7 +44,7 @@
     font-size: 23px;
     font-weight: 600;  
     position: relative;
-    max-width: calc(100% - 35px);  
+    width: calc(100% - 35px);  
     display: block;
 }
 
