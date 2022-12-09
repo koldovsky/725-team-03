@@ -82,6 +82,11 @@
     height: 2px;
 }
 
+.faq__question-expand.active::before {
+    height: 0;
+}
+
+
 .faq__question-answer {
     font-family: var(--primary-font);
     color: var(--paragraph-text-color);
