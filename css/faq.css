@@ -27,7 +27,7 @@
     margin: auto;
 }
 
-.faq__question-wrapper {
+.faq__question-acordion{
     padding: 20px 0;
 }
 
@@ -87,8 +87,9 @@
     font-size: 17px;
     letter-spacing: 0em;
     /* padding-top: 15px; */
-    height: 0;
+    max-height: 0;
     overflow: hidden;
+    transition: 0.3s ease-in-out;
 }
 
 .faq__question-line hr{
