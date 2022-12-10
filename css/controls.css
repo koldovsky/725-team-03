@@ -36,3 +36,157 @@
     background-color: var(--primary-text-color);
     color: var(--primary-background-color);
 }
+
+
+/* --- FOOTER CONTACT BUTTON --- */
+
+.contact-button {
+  position: fixed;
+  right: 15px;
+  bottom: 32px;
+  z-index: 11;
+}
+
+#contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 55px;
+  width: 55px;
+  cursor: pointer;
+  /* background-color:  ; */
+  box-shadow: 0 0 10px 0 var(--primary-background-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+    background-image: url(../icons/contact-us.png);
+  background-size: 82%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.93;
+}
+
+#contact-button ~ button {
+  visibility: hidden;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 20px;
+  color: var(--primary-text-color);
+  background: linear-gradient(90deg, #c09a646c, var(--button-background-color));
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+  border: 0;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: .2s all linear;
+  -webkit-transition: .2s all linear;
+  -moz-transition: .2s all linear;
+  -ms-transition: .2s all linear;
+  -o-transition: .2s all linear;
+}
+
+#contact-button.open ~ button {
+  visibility: visible;
+  right: 70px;
+  opacity: 1;
+  transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -webkit-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+}
+
+#contact-button ~ a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  opacity: 0;
+  text-decoration: none;
+  color: rgb(248, 248, 247);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: .2s all linear;
+  -webkit-transition: .2s all linear;
+  -moz-transition: .2s all linear;
+  -ms-transition: .2s all linear;
+  -o-transition: .2s all linear;
+}
+
+.contact-mail-me {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contact-telegram-icon {
+  background-image: url(../icons/telegram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-whatsapp-icon {
+  background-image: url(../icons/whatsapp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.contact-messenger-icon {
+  background-image: url(../icons/msnger.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#contact-button.open ~ a {
+  opacity: 1;
+  transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -webkit-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+}
+#contact-button.open ~ a:nth-of-type(1) {
+  bottom: 60px;
+}
+#contact-button.open ~ a:nth-of-type(2) {
+  bottom: 120px;
+}
+#contact-button.open ~ a:nth-of-type(3) {
+  bottom: 180px;
+}
+
+.wave {
+  animation-name: wave;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+  0% {box-shadow: 0 0 0px 0px var(--line-color);}
+  100% {box-shadow: 0 0 0px 8px rgba(255, 255, 255, 0);}
+}
+
+.open {
+  animation-iteration-count: 1;
+}

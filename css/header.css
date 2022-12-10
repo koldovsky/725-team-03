@@ -32,12 +32,14 @@ body.lock {
 
 .header-clock {
   margin-top: 0.5rem;
+  width: 150px;
   color: var(--secondary-text-color);
 }
 
 .nav-burger {
   display: block;
-  position: relative;
+  position: fixed;
+  right: 10px;
   width: 24px;
   height: 22px;
   padding: 10px 15px;
