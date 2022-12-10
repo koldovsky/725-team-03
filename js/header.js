@@ -6,7 +6,6 @@
     function updateClock() {
       const clockContainer = document.querySelector(".header-clock");
       const options = {
-        weekday: "long",
         year: "numeric",
         month: "short",
         day: "numeric",
