@@ -54,17 +54,22 @@
     display: flex;
     justify-content: space-around;
 }
+
 .buttom-date-form [type="date"]{
     display: flex;
     height: 39px;
-    background-color: #111111;
-    padding: 14px 20px;
     cursor: pointer;
     border: none;
     outline: none;
     font-size: 14px;
+    background-color: #111111;
+    color: #FFFFFF8A;
+    padding: 14px 20px;
+    width: 80%;
+    margin: 0 auto;
     
 }
+
 .text_form{
     font-family: 'Playfair Display', serif;
     font-size: 34px;
@@ -134,16 +139,7 @@
 
 
 
-.buttom-date-form [type="date"] {
-    background-color: #111111;
-    color: #FFFFFF8A;
-    padding: 14px 20px;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 
 
