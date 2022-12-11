@@ -27,3 +27,44 @@
     font-size: 14px;
     text-align: center;
 }
+
+.why_ryan__h3 {
+    color: #fff;
+    font-size: 23px;
+    line-height: 18px;
+    font-weight: 17px;
+}
+.why_ryan__icons_cards {
+background-color: #1c1c1c;
+margin: 10px;
+}
+
+.why_ryan__icons_cards {
+    padding: 20px 20px;
+    grid-template-columns: 1fr;
+    display: grid;
+    row-gap: 30px;
+}
+
+.why_ryan__icons {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .why_ryan__icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 991px) {
+    .why_ryan__icons {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
