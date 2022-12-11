@@ -64,11 +64,12 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-    background-image: url(../icons/contact-us.png);
+  background-image: url(../icons/contact-us.png);
   background-size: 82%;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.93;
+  z-index: 0;
 }
 
 #contact-button ~ button {
@@ -159,11 +160,11 @@
 
 #contact-button.open ~ a {
   opacity: 1;
-  transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -webkit-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -moz-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -ms-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
-  -o-transition: .4s all cubic-bezier(0, 0.01, 0, 1.27);
+  transition: 0.6s all cubic-bezier(0, 0.01, 0, 1);
+  -webkit-transition: 0.6s all cubic-bezier(0, 0.01, 0, 1);
+  -moz-transition: 0.6s all cubic-bezier(0, 0.01, 0, 1);
+  -ms-transition: 0.6s all cubic-bezier(0, 0.01, 0, 1);
+  -o-transition: 0.6s all cubic-bezier(0, 0.01, 0, 1);
 }
 #contact-button.open ~ a:nth-of-type(1) {
   bottom: 60px;
@@ -188,5 +189,9 @@
 }
 
 .open {
-  animation-iteration-count: 1;
+  animation-iteration-count: 1;  
+}
+
+#contact-button.open {
+background-image: url(../icons/x-button.png);
 }
