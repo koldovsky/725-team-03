@@ -33,6 +33,7 @@ body.lock {
 .header-clock {
   margin: 0.5rem 5rem auto auto;
   width: 190px;
+  font-size: 0.8rem;
   color: var(--secondary-text-color);
 }
 
