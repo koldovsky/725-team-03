@@ -8,7 +8,6 @@
     color: #bababa!important;
 }
 
-
 .button-submit{
     border-color: transparent;
     border-style: solid;
@@ -34,8 +33,9 @@
     --w-get-input-background-color: #111111;
     --w-get-input-color: #FFFFFF;
     display: block;
-    width: 100%;
-    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    
   
 }
 .full_name_form input{
@@ -48,15 +48,21 @@
     margin-top: 2%;
  
 }
+
+
 .full_name_form {
     display: flex;
     justify-content: space-around;
 }
-.date_form{
+.buttom-date-form [type="date"]{
     display: flex;
     height: 39px;
-    width: 100%;
     background-color: #111111;
+    padding: 14px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 14px;
     
 }
 .text_form{
@@ -131,9 +137,20 @@
 .buttom-date-form [type="date"] {
     background-color: #111111;
     color: #FFFFFF8A;
-    width: 100%;
     padding: 14px 20px;
     border: none;
     outline: none;
     font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
