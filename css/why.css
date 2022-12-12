@@ -43,17 +43,11 @@ background-color: #1c1c1c;
 margin: 10px;
 }
 
-.why_ryan__img_vast_experience {
+.why_ryan__icons_cards img{
     width: 20%;
+    margin: 20px 0 20px 0;
 }
 
-.why_ryan__img_modern_equipment {
-    width: 20%;
-}
-
-.why_ryan__img_professional_editing {
-    width: 20%;
-}
 .why_ryan__icons_cards {
     padding: 20px 20px;
     grid-template-columns: 1fr;
