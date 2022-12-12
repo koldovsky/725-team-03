@@ -29,6 +29,10 @@ body {
     --button-slide-color: rgba(192, 154, 100, 0.5);    
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 img {
     display: block;
     width: 100%;
