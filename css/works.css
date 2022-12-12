@@ -29,7 +29,11 @@
 .latest-work_carousel_btn-prev,
 .latest-work_carousel_btn-next {
   background-color: var(--secondary-font);
+}
 
+.latest-work_carousel_btn-prev_container,
+.latest-work_carousel_btn-next_container {
+  margin: auto;
 }
 
 .latest-work__photos {
@@ -45,6 +49,7 @@
 }
 .latest-work_carousel_slide-container img{
   max-width: 481px;
+  object-fit: cover;
 }
 @media (max-width: 880px) {
   .latest-work_carousel_slide-container{
