@@ -32,7 +32,7 @@ body.lock {
 
 /*CURRENT TIME*/
 .header-clock {
-  margin: 8rem auto 2rem;
+  margin: 4rem auto 2rem;
   text-align: center;
   color: var(--secondary-text-color);
 }
@@ -50,8 +50,22 @@ body.lock {
   color: var(--secondary-text-color);
 }
 
-/*BURGER MENU*/
+/*TIMER OF WAR*/
+.days-of-war {
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
 
+/*COUNT OF KILLED ORKS*/
+.count-of-killed-orks {
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+
+/*BURGER MENU*/
 .nav-burger {
   display: block;
   position: fixed;
@@ -196,6 +210,14 @@ body.lock {
 
   .header-christmas {
     display: none;
+  }
+
+  .days-of-war {
+  display: none;
+  }
+
+  .count-of-killed-orks {
+  display: none;
   }
 
   .nav-menu__link {
