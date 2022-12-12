@@ -30,12 +30,49 @@ body.lock {
   z-index: 10;
 }
 
+/*CURRENT TIME*/
 .header-clock {
-  margin: 0.5rem 5rem auto auto;
-  width: 190px;
-  font-size: 0.8rem;
+  margin: 8rem auto 2rem;
+  text-align: center;
   color: var(--secondary-text-color);
 }
+
+.hidden {
+  display: none;
+}
+
+/*TIMER UNTIL CHRISTMAS*/
+.header-christmas {
+  text-align: center;
+}
+
+.header-christmas > span {
+  color: var(--secondary-text-color);
+}
+
+/*TIMER UNTIL NEW YEAR*/
+.cd-wrapper{
+ 	display: inline-block;
+ 	margin: 0 auto;
+  
+}
+.cntSeparator{
+ 	font-size: 50px;
+ 	line-height: 70px;
+ 	margin: 0 10px;
+}
+.cd-wrapper .d div{
+ float: left;
+ 	text-align: center;
+ 	width: 104px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	margin: 10px 0 0 36px;
+}
+.cd-wrapper .d div:first-child{
+ 	margin-left: 1px;
+}
+/*BURGER MENU*/
 
 .nav-burger {
   display: block;
@@ -176,8 +213,11 @@ body.lock {
   }
 
   .header-clock {
-    padding-left: 15px;
-    padding-right: 15px;
+    display: none;
+  }
+
+  .header-christmas {
+    display: none;
   }
 
   .nav-menu__link {
