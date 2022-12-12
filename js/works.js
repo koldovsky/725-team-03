@@ -1,21 +1,14 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+(() => {
+  const slides = [
+      '<div><img src="img/girl_hides_from_sun.png" alt="Girl hides from the sun"></div>',
+      '<div><img src="img/girl_in_a_half_turn.png" alt="A girl in a half turn"></div>',
+      '<div><img src="img/beautiful_girl_in_jacket.png" alt="Beatiful girl in a jacket"></div>'
+  ]
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  let currentSlideInd = 0;
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("latest-work__image");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+  function renderSlide(){
+      const slideContainer = document.querySelector('.latest-work_carousel_slide-container');
+      slideContainer.innerHTML = currentSlideInd;
   }
-  slides[slideIndex-1].style.display = "grid";  
-}
+})();
