@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.why_ryan {
+    margin: auto;
+}
+
 .why_ryan__title {
     font-family: var(--secondary-font);
     font-size: 28px;
@@ -39,6 +43,17 @@ background-color: #1c1c1c;
 margin: 10px;
 }
 
+.why_ryan__img_vast_experience {
+    width: 20%;
+}
+
+.why_ryan__img_modern_equipment {
+    width: 20%;
+}
+
+.why_ryan__img_professional_editing {
+    width: 20%;
+}
 .why_ryan__icons_cards {
     padding: 20px 20px;
     grid-template-columns: 1fr;
