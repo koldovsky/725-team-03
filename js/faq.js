@@ -12,7 +12,6 @@
                 content.style.maxHeight = content.scrollHeight + 'px';
                 expand.classList.add('active');
             }
-        })
-    })
-
+        });
+    });
 })();
