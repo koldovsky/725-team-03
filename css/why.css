@@ -59,6 +59,10 @@ margin: 10px;
     display: grid;
     justify-items: center;
     gap: 20px;
+
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto Light"
 }
 
 @media (min-width: 768px) {
