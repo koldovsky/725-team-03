@@ -8,6 +8,9 @@
   const timerUntilChristmas = document.querySelector(".header-christmas");
   const timerDaysOfWar = document.querySelector(".days-of-war");
   const countOfKilledOrks = document.querySelector(".count-of-killed-orks");
+  const increaseOfKilledOrks = document.querySelector(
+    ".increase-of-killed-orks"
+  );
   iconBurger.addEventListener("click", function (e) {
     document.body.classList.toggle("lock");
     iconBurger.classList.toggle("active");
@@ -16,6 +19,7 @@
     timerUntilChristmas.classList.toggle("hidden");
     timerDaysOfWar.classList.toggle("hidden");
     countOfKilledOrks.classList.toggle("hidden");
+    increaseOfKilledOrks.classList.toggle("hidden");
   });
 
   const navLinks = document.querySelectorAll(".nav-menu__item");
@@ -90,9 +94,6 @@
 
     const microSecondsDiff = Math.abs(datefromAPITimeStamp - nowTimeStamp);
 
-    // Math.round is used instead of Math.floor to account for certain DST cases
-    // Number of milliseconds per day =
-    //   24 hrs/day * 60 minutes/hour * 60 seconds/minute * 1000 ms/second
     totalDaysOfWar = Math.round(microSecondsDiff / (1000 * 60 * 60 * 24));
     return totalDaysOfWar;
   }
@@ -105,7 +106,7 @@
   }
   showTotalDaysOfWar();
 
-  /*COUNT OF KILLED ORKS*/
+  /*COUNT OF KILLED ORKS  -  FETCH*/
   async function showCountOfKilledOrks() {
     const response = await fetch(
       "https://russianwarship.rip/api/v1/statistics/latest"
@@ -113,8 +114,45 @@
     const warStats = await response.json();
 
     const numberOfKilledOrks = warStats.data.stats["personnel_units"];
-    countOfKilledOrks.textContent =
-      numberOfKilledOrks + " orks have been killed";
+    countOfKilledOrks.innerHTML =
+      numberOfKilledOrks +
+      ' orks have been killed <span style="font-size: 0.7rem; color: antiquewhite;">    // fetch</span>';
   }
   showCountOfKilledOrks();
+
+  /*INCREASE OF KILLED ORKS  -  XMLHttpRequest*/
+  function loadStatsOfWar(callback) {
+    let request = new XMLHttpRequest();
+    request.open("GET", "https://russianwarship.rip/api/v1/statistics/latest");
+
+    request.onload = function () {
+      if (request.status !== 200) {
+        callback("Error loading a character!");
+      } else {
+        callback(null, request.response);
+      }
+    };
+
+    request.onerror = function () {
+      callback("Something went wrong");
+    };
+
+    request.send();
+  }
+
+  function showIncreaseOfKilledOrks(error, statsOfWar) {
+    if (error) {
+      console.error(error);
+    } else {
+      let stats = JSON.parse(statsOfWar);
+      console.log(stats);
+      let numberOfIncreaseOfKilledOrks = stats.data.increase["personnel_units"];
+      increaseOfKilledOrks.innerHTML =
+        "+" +
+        numberOfIncreaseOfKilledOrks +
+        ' orks were killed yesterday <span style="font-size: 0.7rem; color: antiquewhite;">    // XMLHttpRequest</span>';
+    }
+  }
+
+  loadStatsOfWar(showIncreaseOfKilledOrks);
 })();
