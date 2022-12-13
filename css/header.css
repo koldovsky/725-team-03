@@ -68,7 +68,7 @@ body.lock {
 /*BURGER MENU*/
 .nav-burger {
   display: block;
-  position: fixed;
+  position: absolute;
   right: 10px;
   width: 24px;
   height: 22px;
